@@ -3,7 +3,7 @@ CE4
 
 Assembly Language Programming for PRISM
 
-C3C Kevin Cabusora, Dr. Neebel, ECE281, 3 April 2014
+###C3C Kevin Cabusora, Dr. Neebel, ECE281, 3 April 2014
 ===
 Simple Memory Manipulation
 ===
@@ -17,6 +17,7 @@ I used LDAI, and then used 9 as the first operand.  I did the same with the subs
 In accordance with the requirement, I made an infinite loop using JMP which just jumped to the last line of the program (which was JMP again).
 
 When tested, the program performed as expected, in that the values in the RAM matched those in the operands.
+
 ===
 Mathematics
 ===
@@ -42,6 +43,7 @@ Finally, I used OUT to output the value to Port 2.
 Just like the first program, I put a JMP infinite loop at the end.
 
 The program performed as expected, as Port 2 showed the expected result of 6. (5 X 2 – 4 = 6)
+
 ===
 Loops
 ===
@@ -61,6 +63,7 @@ To perform this, I would add 1 to the value of OUT 2, then loop back to OUT 0 us
 This negated the need for an infinite loop at the end, because the program IS the loop.
 
 When tested the program performed exactly as expected.  Using the test value of 7 in Input 3, the results were 7, 6, 5 for ports 0, 1, and 2, respectively.  Advancing a few more steps led to an output of 6, 5, 4, then 5, 4, 3, then so on.
+
 ===
 Documentation
 ===
