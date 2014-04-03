@@ -8,6 +8,7 @@ Assembly Language Programming for PRISM
 Simple Memory Manipulation
 ===
 [Simple Memory Manipulation](Simple Memory Manipulation.psm)
+
 The goal of this program was to store the value $9 in location $B0, $8 in $C4, and $B in $CB.  
 
 In order to implement this program, I first labeled the variables in RAM, using the names A_FIRST, A_SECOND, and A_THIRD.  
@@ -22,6 +23,7 @@ When tested, the program performed as expected, in that the values in the RAM ma
 Mathematics
 ===
 [Mathematics](Mathematics.psm)
+
 The goal of this program was retrieve a positive test value from location $B0, double it, subtract 4, and output it to Port 2.  
 
 The first stem was to allow RAM values to be edited.  For my test value, I chose 5.
@@ -48,6 +50,7 @@ The program performed as expected, as Port 2 showed the expected result of 6. (5
 Loops
 ===
 [Loops](Loops.psm)
+
 The goal for this program was to read a value Input Port 3, display it to Output Port 0, subtract 1 from that value and display it to Port 1, then subtract 1 from Port 1 and display it in Port 2.  The loop would then gradually decrease each Output Port by 1 sequentially.
 
 The first step was to choose Input Port 1, using IN with operand 3.  Next, I made that value output in Port 0 using OUT with operand 0.
